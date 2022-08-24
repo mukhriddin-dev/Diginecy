@@ -1,0 +1,58 @@
+.hero {
+   width: 100%;
+   background-color: $main-bg-light;
+   ;
+
+
+   .wrapper {
+      background-image: url("../../images/hero-img.png");
+      height: 800px;
+      background-repeat: no-repeat;
+      background-size: auto;
+      background-position: 650px 140px;
+      display: flex;
+      align-items: center;
+
+
+      &__text {
+         width: 603px;
+
+         &--title {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 48.83px;
+            line-height: 73px;
+            color: $main-bg-gray;
+         }
+
+         &--description {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: $main-bg-silver;
+         }
+
+         &--btn {
+            width: 182px;
+            height: 50px;
+            border-radius: 5px;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            -ms-border-radius: 5px;
+            -o-border-radius: 5px;
+            background-color: $main-bg-orange;
+            color: $main-bg-white;
+            padding: 10px;
+            margin: 10px 0;
+            border: none;
+            font-weight: bold;
+
+         }
+      }
+
+   }
+
+}

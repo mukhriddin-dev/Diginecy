@@ -1,0 +1,73 @@
+.services {
+   width: 100%;
+   padding-top: 100px;
+
+
+   &__text {
+      color: $main-bg-orange;
+      text-align: center;
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+
+      &::after {
+         content: "";
+         display: inline-block;
+         width: 40px;
+         height: 1px;
+         background-color: $main-bg-orange;
+         position: relative;
+         top: -5px;
+         left: 5px;
+      }
+
+      &::before {
+         content: "";
+         display: inline-block;
+         width: 40px;
+         height: 1px;
+         background-color: $main-bg-orange;
+         position: relative;
+         top: -5px;
+         left: -5px;
+
+
+      }
+   }
+
+
+   &__title {
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 39.0625px;
+      line-height: 59px;
+      text-align: center;
+      color: $main-bg-gray;
+   }
+
+
+   &-cards {
+      display: grid;
+      grid-template-columns: repeat(3, 370px);
+      grid-template-rows: repeat(2, 300px);
+      gap: 30px;
+
+      .card {
+         box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+         border-radius: 10px;
+         -webkit-border-radius: 10px;
+         -moz-border-radius: 10px;
+         -ms-border-radius: 10px;
+         -o-border-radius: 10px;
+         background-color: $main-bg-white;
+         padding: 25px;
+}
+   }
+
+
+
+
+}

@@ -1,0 +1,21 @@
+*::after,
+*::before,
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+html {
+   margin: 0;
+}
+
+
+body {
+   all: inherit;
+   font-family: 'Work Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+}
+
