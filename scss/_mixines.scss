@@ -1,0 +1,14 @@
+@mixin custom-card($w, $h, $bs, $m, $p, $bg) {
+   width: $w;
+   height: $h;
+   box-shadow: $bs;
+   margin: $m;
+   padding: $p;
+   background-color: $bg;
+}
+
+
+
+
+
+
